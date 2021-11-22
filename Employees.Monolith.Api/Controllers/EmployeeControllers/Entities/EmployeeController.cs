@@ -84,7 +84,10 @@ namespace Employees.Monolith.Api.Controllers.EmployeeControllers.Entities
         [Authorize(AuthenticationSchemes = SchemeConstant.VALIDATE_X_TOKEN, Roles = GroupConstant.ADMINISTRATORS)]
         public async Task<IActionResult> DeleteAsync([FromRoute] GuidRequest request)
         {
-            var result = await _context.Employees.FirstOrDefaultAsync(v => v.Guid.Equals(request.Guid));
+            var result = await _context.Employees
+                .Include(v => v.Skills)
+                .FirstOrDefaultAsync(v => v.Guid.Equals(request.Guid));
+            result.Skills.Clear();
             _context.Employees.Remove(result);
             await _context.SaveChangesAsync();
             return Ok(result);
