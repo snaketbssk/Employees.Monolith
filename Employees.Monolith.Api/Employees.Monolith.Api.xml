@@ -1,0 +1,587 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Employees.Monolith.Api</name>
+    </assembly>
+    <members>
+        <member name="F:Employees.Monolith.Api.Authentications.Models.Constants.GroupConstant.ADMINISTRATORS">
+            <summary>
+            Все пользователи администраторы
+            </summary>
+        </member>
+        <member name="F:Employees.Monolith.Api.Authentications.Models.Constants.GroupConstant.SERVICE">
+            <summary>
+            Сервис пользователь
+            </summary>
+        </member>
+        <member name="F:Employees.Monolith.Api.Authentications.Models.Constants.GroupConstant.ADMIN">
+            <summary>
+            Админ пользователь
+            </summary>
+        </member>
+        <member name="F:Employees.Monolith.Api.Authentications.Models.Constants.GroupConstant.USER">
+            <summary>
+            Обычный пользователь
+            </summary>
+        </member>
+        <member name="F:Employees.Monolith.Api.Authentications.Models.Constants.GroupConstant.BOT">
+            <summary>
+            Бот пользователь
+            </summary>
+        </member>
+        <member name="F:Employees.Monolith.Api.Authentications.Models.Constants.GroupConstant.IDENTITY">
+            <summary>
+            Все пользователи
+            </summary>
+        </member>
+        <member name="F:Employees.Monolith.Api.Authentications.Models.Constants.GroupConstant.HUMAN">
+            <summary>
+            Все люди
+            </summary>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.AdminControllers.Entities.AdminController.PutSignUpAsync(Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest)">
+            <summary>
+            [ADMINISTRATORS] PutSignUpAsync
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.AdminsControllers.Entities.AdminsController.GetUsersAsync">
+            <summary>
+            [ADMINISTRATORS] GetUsersAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.BotControllers.Entities.BotController.PutSignUpAsync(Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest)">
+            <summary>
+            [ADMINISTRATORS] PutSignUpAsync
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.BotsControllers.Entities.BotsController.GetAsync">
+            <summary>
+            [ADMINISTRATORS] GetAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.DepartmentControllers.Entities.DepartmentController.PutAsync(Employees.Monolith.Api.Controllers.DepartmentControllers.Requests.Entities.PutDepartmentRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.DepartmentControllers.Entities.DepartmentController.GetAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.DepartmentControllers.Entities.DepartmentController.PatchAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest,Employees.Monolith.Api.Controllers.DepartmentControllers.Requests.Entities.PutDepartmentRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="guidRequest"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.DepartmentControllers.Entities.DepartmentController.DeleteAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.DepartmentsControllers.Entities.DepartmentsController.GetAsync">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.DepartmentsControllers.Entities.DepartmentsController.GetAvarageSalaryAsync">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.DepartmentsControllers.Entities.DepartmentsController.GetAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.PaginationRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.DepartmentsControllers.Entities.DepartmentsController.PostAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.PaginationRequest,Employees.Monolith.Api.Controllers.DepartmentsControllers.Requests.Entities.PostDepartmentsRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="paginationRequest"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.EmployeeControllers.Entities.EmployeeController.PutAsync(Employees.Monolith.Api.Controllers.EmployeeControllers.Requests.Entities.PutEmployeeRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.EmployeeControllers.Entities.EmployeeController.GetAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.EmployeeControllers.Entities.EmployeeController.PatchAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest,Employees.Monolith.Api.Controllers.EmployeeControllers.Requests.Entities.PutEmployeeRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="guidRequest"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.EmployeeControllers.Entities.EmployeeController.DeleteAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.EmployeesControllers.Entities.EmployeesController.GetAsync">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.EmployeesControllers.Entities.EmployeesController.PostAsync(Employees.Monolith.Api.Controllers.EmployeesControllers.Requests.Entities.PostEmployeesRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.EmployeesControllers.Entities.EmployeesController.PostAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.PaginationRequest,Employees.Monolith.Api.Controllers.EmployeesControllers.Requests.Entities.PostEmployeesRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="paginationRequest"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.EmployeesControllers.Entities.EmployeesController.GetAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.PaginationRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.EmployeesControllers.Entities.EmployeesController.GetAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest,Employees.Monolith.LogicLayer.Models.Requests.Entities.PaginationRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="guidRequest"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.PermissionControllers.Entities.PermissionController.PatchAsync(Employees.Monolith.Api.Controllers.PermissionControllers.Requests.Entities.PatchPermissionRequest)">
+            <summary>
+            [ADMINISTRATORS] PatchAsync
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.PermissionsControllers.Entities.PermissionsController.GetAsync">
+            <summary>
+            [ADMINISTRATORS] GetAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.ReferralControllers.Entities.ReferralController.GetAsync">
+            <summary>
+            [IDENTITY] GetAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.ReferralControllers.Entities.ReferralController.GetAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS] GetAsync
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.ReferralsControllers.Entities.ReferralsController.GetAsync">
+            <summary>
+            [IDENTITY] GetAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.ServiceControllers.Entities.ServiceController.PutSignUpAsync(Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest)">
+            <summary>
+            [ADMINISTRATORS] PutSignUpAsync
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.ServicesControllers.Entities.ServicesController.GetAsync">
+            <summary>
+            [ADMINISTRATORS] GetAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.SkillControllers.Entities.SkillController.PutAsync(Employees.Monolith.Api.Controllers.SkillControllers.Requests.Entities.PutSkillRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.SkillControllers.Entities.SkillController.GetAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.SkillControllers.Entities.SkillController.PatchAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest,Employees.Monolith.Api.Controllers.SkillControllers.Requests.Entities.PutSkillRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="guidRequest"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.SkillControllers.Entities.SkillController.DeleteAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.SkillsControllers.Entities.SkillsController.GetAsync">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.SkillsControllers.Entities.SkillsController.PostAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.PaginationRequest,Employees.Monolith.Api.Controllers.SkillsControllers.Requests.Entities.PostKillsRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="paginationRequest"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.SkillsControllers.Entities.SkillsController.GetAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.PaginationRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.TokenControllers.Entities.TokenController.PutSignInAsync(Employees.Monolith.Api.Controllers.TokenControllers.Requests.Entities.SignInRequest)">
+            <summary>
+            PostSignInAsync
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.TokenControllers.Entities.TokenController.GetAsync">
+            <summary>
+            [IDENTITY] GetAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.TokenControllers.Entities.TokenController.DeleteAsync">
+            <summary>
+            [HUMAN] DeleteAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.TokenControllers.Entities.TokenController.DeleteAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.TokenControllers.Requests.Entities.SignInRequest.LoginOrEmail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Employees.Monolith.Api.Controllers.TokenControllers.Requests.Entities.SignInRequest._password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.TokenControllers.Requests.Entities.SignInRequest.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.TokenControllers.Requests.Entities.SignInRequest.CodeTFA">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.XTokensControllers.Entities.TokensController.GetAsync">
+            <summary>
+            [IDENTITY] GetAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.XTokensControllers.Entities.TokensController.DeleteAsync">
+            <summary>
+            [HUMAN] DeleteAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.XTokensControllers.Entities.TokensController.GetAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS] GetAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.XTokensControllers.Entities.TokensController.DeleteAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS] GetAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.UserControllers.Entities.UserController.PutSignUpAsync(Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest)">
+            <summary>
+            [ALL] PutSignUpAsync
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.UserControllers.Entities.UserController.PathEditAsync(Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.EditRequest)">
+            <summary>
+            [IDENTITY] PathEditAsync
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.UserControllers.Entities.UserController.GetAsync">
+            <summary>
+            [IDENTITY] GetAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.UserControllers.Entities.UserController.DeleteAsync">
+            <summary>
+            [USER] DeleteAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.UserControllers.Entities.UserController.GetByGuidUserAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS] GetByGuidUserAsync
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.UserControllers.Entities.UserController.GetByGuidXTokenAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS] GetByGuidXTokenAsync
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.UserControllers.Entities.UserController.DeleteAsync(Employees.Monolith.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS] DeleteAsync
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.EditGuidRequest.FirstName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.EditGuidRequest.MiddleName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.EditGuidRequest.LastName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.EditGuidRequest.Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.EditRequest">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.EditRequest.FirstName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.EditRequest.MiddleName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.EditRequest.LastName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.EditRequest.Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.EditRequest.Update(Employees.Monolith.DataLayer.Models.Tables.Entities.UserTable)">
+            <summary>
+            
+            </summary>
+            <param name="result"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.Login">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest._password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest._confirmPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.FirstName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.MiddleName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.LastName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.Language">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.Referral">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.ToUserTableCreater(Employees.Monolith.DataLayer.Models.Tables.RoleUserTable)">
+            <summary>
+            
+            </summary>
+            <param name="role"></param>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Employees.Monolith.Api.Controllers.UsersControllers.Entities.UsersController.GetUsersAsync">
+            <summary>
+            [ADMINISTRATORS] GetUsersAsync
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Employees.Monolith.Api.Models.Entities.UserAgentModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Models.Entities.UserAgentModel.FamilyOS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Models.Entities.UserAgentModel.MajorOS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Models.Entities.UserAgentModel.FamilyUserAgent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Models.Entities.UserAgentModel.MajorUserAgent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Models.Entities.UserAgentModel.FamilyDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Models.Entities.UserAgentModel.BrandDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Models.Entities.UserAgentModel.ModelDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Employees.Monolith.Api.Models.Entities.UserAgentModel.IpAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Employees.Monolith.Api.Models.Entities.UserAgentModel.#ctor(Microsoft.AspNetCore.Http.HttpRequest)">
+            <summary>
+            
+            </summary>
+            <param name="httpRequest"></param>
+        </member>
+        <member name="M:Employees.Monolith.Api.Models.Entities.UserAgentModel.Update(Employees.Monolith.DataLayer.Models.Tables.Entities.TokenTable)">
+            <summary>
+            
+            </summary>
+            <param name="result"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

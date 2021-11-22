@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>Employees.Monolith.Api.xml</DocumentationFile>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="UAParser" Version="3.1.47" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Authentications\Models\Entities\" />
+    <Folder Include="Controllers\AdminControllers\Requests\Entities\" />
+    <Folder Include="Controllers\AdminControllers\Responses\Entities\" />
+    <Folder Include="Controllers\AdminsControllers\Requests\Entities\" />
+    <Folder Include="Controllers\AdminsControllers\Responses\Entities\" />
+    <Folder Include="Controllers\BotControllers\Requests\Entities\" />
+    <Folder Include="Controllers\BotControllers\Responses\Entities\" />
+    <Folder Include="Controllers\BotsControllers\Requests\Entities\" />
+    <Folder Include="Controllers\BotsControllers\Responses\Entities\" />
+    <Folder Include="Controllers\DepartmentControllers\Responses\Entities\" />
+    <Folder Include="Controllers\DepartmentsControllers\Responses\Entities\" />
+    <Folder Include="Controllers\EmployeeControllers\Responses\Entities\" />
+    <Folder Include="Controllers\EmployeesControllers\Responses\Entities\" />
+    <Folder Include="Controllers\PermissionControllers\Responses\Entities\" />
+    <Folder Include="Controllers\PermissionsControllers\Requests\Entities\" />
+    <Folder Include="Controllers\PermissionsControllers\Responses\Entities\" />
+    <Folder Include="Controllers\ReferralControllers\Requests\Entities\" />
+    <Folder Include="Controllers\ReferralControllers\Responses\Entities\" />
+    <Folder Include="Controllers\ReferralsControllers\Requests\Entities\" />
+    <Folder Include="Controllers\ReferralsControllers\Responses\Entities\" />
+    <Folder Include="Controllers\ServiceControllers\Requests\Entities\" />
+    <Folder Include="Controllers\ServiceControllers\Responses\Entities\" />
+    <Folder Include="Controllers\ServicesControllers\Requests\Entities\" />
+    <Folder Include="Controllers\ServicesControllers\Responses\Entities\" />
+    <Folder Include="Controllers\SkillsControllers\Responses\Entities\" />
+    <Folder Include="Controllers\SkillControllers\Responses\Entities\" />
+    <Folder Include="Controllers\TokenControllers\Responses\Entities\" />
+    <Folder Include="Controllers\TokensControllers\Requests\Entities\" />
+    <Folder Include="Controllers\TokensControllers\Responses\Entities\" />
+    <Folder Include="Controllers\UserControllers\Responses\Entities\" />
+    <Folder Include="Controllers\UsersControllers\Requests\Entities\" />
+    <Folder Include="Controllers\UsersControllers\Responses\Entities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Employees.Monolith.Connections\Employees.Monolith.Connections.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Employees.Monolith.Api.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+</Project>
